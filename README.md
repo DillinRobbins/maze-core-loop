@@ -2,10 +2,10 @@
 
 You'll see several regions which are just repeatedly running the core loop. 
 
-The main region is the second one, after the variables and building outer walls. 
+The core loop is the second region, after the variables and building outer walls. 
 
 That region seperates a grid into 2 subregions by grabbing a random cell in a random subregion, 
-and attempting to add the cells around it to its same subregion. 
+and attempting to add the cells around it to its same subregion. Spreading like that to fill the grid. 
 
 In  order to do that, It has to check if every cell around it is already occupied, 
 a wall, or is adjacent to the opposite subregion cells. 
