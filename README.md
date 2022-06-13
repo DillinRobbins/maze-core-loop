@@ -1,17 +1,6 @@
 # maze-core-loop
 
-You'll see several regions which are just repeatedly running the core loop. 
-
-The core loop is the second region, after the variables and building outer walls. 
-
-That region seperates a grid into 2 subregions by grabbing a random cell in a random subregion, 
-and attempting to add the cells around it to its same subregion. Spreading like that to fill the grid. 
-
-In  order to do that, It has to check if every cell around it is already occupied, 
-a wall, or is adjacent to the opposite subregion cells. 
-
-At the end it turns all non occupied cells into walls and creates doors placed randomly in them.
-
+The code works by seperating a data-structure grid into 2 regions by placing 2 seeds randomly that spread to fill a region, and placing a wall between those generated regions. It repeats this algorithm recursively until a determined room size threshhold is achieved.
 
 Algorithm:
 
