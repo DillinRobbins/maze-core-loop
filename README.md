@@ -1,6 +1,6 @@
 # maze-core-loop
 
-The code works by seperating a data-structure grid into 2 regions by placing 2 seeds randomly that spread to fill a region, and placing a wall between those generated regions. It repeats this algorithm recursively until a determined room size threshhold is achieved.
+The code works by seperating a data-structure grid into 2 regions by placing 2 seeds randomly that spread to fill a region, and placing a wall between those generated regions. It repeats this algorithm recursively until a determined room size threshhold is achieved. However, GMS has difficulty with recursion, so i had to copy and paste the core loop under a finite number of iterations.
 
 The code is titled: Create_0.gml
 
