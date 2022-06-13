@@ -2,6 +2,8 @@
 
 The code works by seperating a data-structure grid into 2 regions by placing 2 seeds randomly that spread to fill a region, and placing a wall between those generated regions. It repeats this algorithm recursively until a determined room size threshhold is achieved.
 
+The code is titled: Create_0.gml
+
 Algorithm:
 
 Collect all the cells in the maze into a single region.
